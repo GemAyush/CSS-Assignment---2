@@ -32,3 +32,20 @@
 .three-em {
     font-size: 3em;
 }
+.Transition{
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    transition: width 2s, height 4s;
+}
+.Transition:hover{
+    width: 200px;
+    height: 200px;
+}
+.Transform{
+    width: 200px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid black;
+    transform: translate(50px, 100px);
+}
