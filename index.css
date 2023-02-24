@@ -12,4 +12,23 @@
 .parent{
     width: 200px;
     border: 1px solid black;
+    font-size: 20px;
+}
+.twentyFive-vw{
+   width: 25vw;
+}
+.Fifty-vh{
+   height: 50vh;
+}
+.two-rem {
+    font-size: 2rem;
+}
+.two-em {
+    font-size: 2em;
+}
+.three-rem {
+    font-size: 3rem;
+}
+.three-em {
+    font-size: 3em;
 }
