@@ -1,0 +1,15 @@
+.box{
+    background: yellow;
+    border: 1px solid black;
+    margin: 10px;
+}
+.twentyFive-percent{
+    width: 25%;
+}
+.Fifty-pixels{
+    width: 50px;
+}
+.parent{
+    width: 200px;
+    border: 1px solid black;
+}
