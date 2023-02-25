@@ -47,8 +47,37 @@
     <p>Hover over the div, to see the transition effect.</p>
     <div class="Transition"></div>
     <h3>Transform</h3>
-    <p>The rotate method will rotate the element clockwise.</p>
+    <p>This div element is moved 50 pixels to the right, and 100 pixels down from its current position.</p>
     <div class="Transform"></div>
-    
+    <h2>Combinators Concepts</h2>
+    <h3>Demo - 7</h3>
+    <p>A descendant selector matches all the element that are descendant of a specified element.</p> 
+    <p>This is not inside a div</p>
+    <div class="descend">
+        <p>1-This is inside div</p>
+        <section><p>2-This is inside a div</p></section>
+    </div>  
+    <h3>Demo - 8</h3>
+    <p>The child selector selects all the elements that are the childern of a specified element.</p>
+    <p>This is not inside a div</p>
+    <div class="child-selector">
+        <p>1-This is inside div</p>
+        <section><p>2-This is inside a div but inside a section element.</p></section>
+    </div>  
+    <h3>Demo - 9</h3>
+    <p>The Adjacent Sibling Selector is used to select an element that is directly after another specific element.</p>
+    <p>This is before the div element</p>
+    <div class="adjacent">
+        <p>This is inside the div element.</p>
+    </div>
+    <p>This is immediately after the div element.</p>
+    <h3>Demo - 10</h3>
+    <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+    <p>This is before the div element</p>
+    <div class="general">
+        <p>This is inside the div element.</p>
+    </div>
+    <p>This is immediately after the div element.</p>
+    <p>This p is also after the div element.</p>
 </body>
 </html>
